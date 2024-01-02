@@ -5,3 +5,18 @@
 .cd-nav-trigger{
     display:none;
 }
+.item label{
+    background-color:transparent;
+    border:none;
+    padding:5px 10px 5px 10px;
+}
+.bmi-main-images{
+    width:90%;
+}
+.main{
+
+    background:lightgray !important;
+}
+.wizard-header{
+    margin-top:0px !important;
+}

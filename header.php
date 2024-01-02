@@ -47,4 +47,3 @@
 	
 	
 	<!-- /Header -->
-<h1>this is test heading</h1>

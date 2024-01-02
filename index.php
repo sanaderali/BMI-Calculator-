@@ -10,28 +10,30 @@
 						<!-- First branch What Type of Project ============================== -->
 						<div class="step" data-state="branchtype">
 							<div class="question_title">
-								<h3>Your BMI Calculator </h3>
-								<p><strong>Steps 01/32</strong></p>
+								<h3>Let's Create Your Body Profile</h3>
+								<p><strong>Select your gender:</strong></p>
 							</div>
 							<div class="row">
-								<div class="col-lg-4 animated zoomIn delay-fast">
+								<div class="col-md-3"></div>
+								<div class="col-lg-3 animated zoomIn delay-fast">
 									<div class="item">
 										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
-										<label for="answer_1"><img src="img/seo_icon_1.svg" alt=""><strong>Seo Optimization</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										<label for="answer_1"><img src="bmi-images/male.webp" class="bmi-main-images" alt=""><strong>Seo Optimization</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
 								</div>
-								<div class="col-lg-4 animated zoomIn delay-normal">
+								<div class="col-lg-3 animated zoomIn delay-normal">
 									<div class="item">
 										<input id="answer_2" name="branch_1_group_1" type="radio" value="Web-Development" class="required">
-										<label for="answer_2"><img src="img/web_development_icon_1.svg" alt=""><strong>Web Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										<label for="answer_2"><img src="bmi-images/female.webp" class="bmi-main-images" alt=""><strong>Web Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
 								</div>
-								<div class="col-lg-4 animated zoomIn delay-medium">
+								<div class="col-md-3"></div>
+								<!-- <div class="col-lg-2 animated zoomIn delay-medium">
 									<div class="item">
 										<input id="answer_3" name="branch_1_group_1" type="radio" value="Design" class="required">
 										<label for="answer_3"><img src="img/design_icon_1.svg" alt=""><strong>Design</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<!-- /row-->
 						</div>
@@ -335,4 +337,3 @@
 	
 	<?php include ('footer.php'); ?>
 
-	<!-- fgfdg -->

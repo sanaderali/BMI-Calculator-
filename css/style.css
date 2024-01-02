@@ -395,7 +395,7 @@ header {
 }
 
 main {
-  background: #f8f8f8 url(../img/pattern.svg) repeat;
+  /* background: #f8f8f8 url(../img/pattern.svg) repeat; */
 }
 main.plain {
   background: #f8f8f8;
