@@ -1,4 +1,83 @@
-<?php include ('header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="STEPS | Multipurpose Working Wizard with Branches">
+    <meta name="author" content="Ansonika">
+    <title>STEPS | Multipurpose Working Wizard with Branches</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/vendors.min.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+	<link href="css/skins/square/grey.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+	
+	<script src="js/modernizr.js"></script>
+	<!-- Modernizr -->
+
+</head>
+
+<body>
+	
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+	
+	<div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div><!-- /loader_form -->
+	
+	<header>
+		<div class="container-fluid">
+		    <div class="row">
+                <div class="col-3">
+                    <div id="logo_home">
+                        <h1><a href="index.html">STEPS | Multipurpose Working Wizard with Branches</a></h1>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div id="social">
+                        <ul>
+                            <li><a href="#0"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#0"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#0"><i class="icon-google"></i></a></li>
+                            <li><a href="#0"><i class="icon-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- /social -->
+                    <nav>
+                        <ul class="cd-primary-nav">
+                            <li><a href="about.html" class="animated_link">About</a></li>
+                            <li><a href="contacts.html" class="animated_link">Contacts</a></li>
+                            <li><a href="icon-pack-1.html" class="animated_link">Icon Pack One</a></li>
+                            <li><a href="icon-pack-2.html" class="animated_link">Icon Pack Two</a></li>
+                            <li><a href="icon-pack-3.html" class="animated_link">Icon Pack Three</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
+	
 	<main>
 		<div class="container">
 			<div id="wizard_container">
@@ -10,30 +89,28 @@
 						<!-- First branch What Type of Project ============================== -->
 						<div class="step" data-state="branchtype">
 							<div class="question_title">
-								<h3>Let's Create Your Body Profile</h3>
-								<p><strong>Select your gender:</strong></p>
+								<h3>What Type of Project do you need?</h3>
+								<p>Selection with Branch (First Branch). Web Development have a <strong>Second Branch</strong>.</p>
 							</div>
 							<div class="row">
-								<div class="col-md-3"></div>
-								<div class="col-lg-3 animated zoomIn delay-fast">
+								<div class="col-lg-4 animated zoomIn delay-fast">
 									<div class="item">
 										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
-										<label for="answer_1"><img src="bmi-images/male.webp" class="bmi-main-images" alt=""><!--<strong>Seo Optimization</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.--></label>
+										<label for="answer_1"><img src="img/seo_icon_1.svg" alt=""><strong>Seo Optimization</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
 								</div>
-								<div class="col-lg-3 animated zoomIn delay-normal">
+								<div class="col-lg-4 animated zoomIn delay-normal">
 									<div class="item">
 										<input id="answer_2" name="branch_1_group_1" type="radio" value="Web-Development" class="required">
-										<label for="answer_2"><img src="bmi-images/female.webp" class="bmi-main-images" alt=""><!--<strong>Web Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.--></label>
+										<label for="answer_2"><img src="img/web_development_icon_1.svg" alt=""><strong>Web Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
 								</div>
-								<div class="col-md-3"></div>
-								<!-- <div class="col-lg-2 animated zoomIn delay-medium">
+								<div class="col-lg-4 animated zoomIn delay-medium">
 									<div class="item">
 										<input id="answer_3" name="branch_1_group_1" type="radio" value="Design" class="required">
 										<label for="answer_3"><img src="img/design_icon_1.svg" alt=""><strong>Design</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
-								</div> -->
+								</div>
 							</div>
 							<!-- /row-->
 						</div>
@@ -323,7 +400,7 @@
 					<!-- /middle-wizard -->
 					<div id="bottom-wizard">
 						<button type="button" name="backward" class="backward">Backward </button>
-						<button type="button" name="forward" class="forward">Continue</button>
+						<button type="button" name="forward" class="forward">Forward</button>
 						<button type="submit" name="process" class="submit">Submit</button>
 					</div>
 					<!-- /bottom-wizard -->
@@ -335,5 +412,58 @@
 	</main>
 	<!-- /main -->
 	
-	<?php include ('footer.php'); ?>
+	<footer>
+		<div class="container clearfix">
+			<ul>
+				<li><a href="index.html" class="animated_link active">Multiple Branch</a></li>
+				<li><a href="index-2.html" class="animated_link">Single Branch</a></li>
+				<li><a href="index-3.html" class="animated_link">Without Branch</a></li>
+				<li><a href="index-4.html" class="animated_link">Images Version</a></li>
+				<li><a href="index-5.html" class="animated_link">Multiple Branch + FileUpload</a></li>
+				<li><a href="#0" class="animated_link"><strong>Purchase this Template</strong></a></li>
+			</ul>
+			<p>© 2023 Steps</p>
+		</div>
+	</footer>
+	<!-- /footer -->
+	
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-nav -->
 
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-content -->
+
+	<a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+	<!-- /cd-nav-trigger -->
+	
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="termsLabel">Terms and conditions</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Modal terms -->
+	
+	<!-- COMMON SCRIPTS -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/common_scripts.min.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/wizard_func_multiple_branch.js"></script>	
+	
+</body>
+</html>

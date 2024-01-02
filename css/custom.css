@@ -20,3 +20,6 @@
 .wizard-header{
     margin-top:0px !important;
 }
+button.forward{
+    width: 20%;
+}
