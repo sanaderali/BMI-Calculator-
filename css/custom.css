@@ -15,11 +15,37 @@
 }
 .main{
 
-    background:lightgray !important;
+    background:#f5f4f5 !important;
+}
+body{
+    background: #fbfbfb !important;
 }
 .wizard-header{
     margin-top:0px !important;
 }
 button.forward{
     width: 20%;
+}
+.item label:hover{
+    background: none;
+    transition: none;
+    box-shadow: none;
+    transform: none;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    background-clip: transparent;
+    color: transparent;
+    border: none;
+}
+body{
+    background:transparent;
+}
+.question_title h3{
+    color:;
+}
+.items img{
+    width: 90%;
+    height: 90%;
 }

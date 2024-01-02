@@ -43,29 +43,35 @@
 						<div class="branch" id="Seo-Optimization">
 							<div class="step" data-state="budget">
 								<div class="question_title">
-									<h3>What Type of Seo Optimization do you need?</h3>
-									<p>Multiple Selection (Checkbox based)</p>
+									<h3>PERSONALIZED WORKOUT PLAN</h3>
+									<p>ACCORDING TO YOUR AGE</p>
 								</div>
 								<div class="row">
-									<div class="col-lg-4 animated zoomIn delay-fast">
-										<div class="item">
-											<input id="branch_1_answer_1" type="checkbox" name="branch_1_answers[]" value="Page SEO Checker" class="required">
-											<label for="branch_1_answer_1"><img src="img/seo_icon_2.svg" alt=""><strong>On Page SEO Checker</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
-										</div>
-									</div>
-									<div class="col-lg-4 animated zoomIn delay-normal">
-										<div class="item">
-											<input id="branch_1_answer_2" name="branch_1_answers[]" type="checkbox" value="Pay Per Click" class="required">
-											<label for="branch_1_answer_2"><img src="img/seo_icon_3.svg" alt=""><strong>Pay Per Click</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
-										</div>
-									</div>
-									<div class="col-lg-4 animated zoomIn delay-medium">
-										<div class="item">
-											<input id="branch_1_answer_3" name="branch_1_answers[]" type="checkbox" value="Backlinks Checker" class="required">
-											<label for="branch_1_answer_3"><img src="img/seo_icon_4.svg" alt=""><strong>Backlinks Checker</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
-										</div>
+								<div class="col-lg-3 animated zoomIn delay-fast">
+									<div class="item">
+										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
+										<label for="answer_1"><img src="bmi-images/11.png" alt=""><button type="button" name="forward" class="forward">18-25</button>
 									</div>
 								</div>
+								<div class="col-lg-3 animated zoomIn delay-normal">
+									<div class="item">
+										<input id="answer_2" name="branch_1_group_1" type="radio" value="Web-Development" class="required">
+										<label for="answer_2"><img src="bmi-images/7.png" alt=""><button type="button" name="forward" class="forward">26-35</button>
+									</div>
+								</div>
+								<div class="col-lg-3 animated zoomIn delay-medium">
+									<div class="item">
+										<input id="answer_3" name="branch_1_group_1" type="radio" value="Design" class="required">
+										<label for="answer_3"><img src="bmi-images/10.png" alt=""><button type="button" name="forward" class="forward">36-45</button>
+									</div>
+								</div>
+								<div class="col-lg-3 animated zoomIn delay-medium">
+									<div class="item">
+										<input id="answer_3" name="branch_1_group_1" type="radio" value="Design" class="required">
+										<label for="answer_3"><img src="bmi-images/6.png" alt="" class="bg-white"><button type="button" name="forward" class="forward">46+</button>
+									</div>
+								</div>
+							</div>
 								<!-- /row-->
 							</div>
 							<!-- /step -->
@@ -76,28 +82,30 @@
 						<div class="branch" id="Web-Development">
 							<div class="step" data-state="branchtype">
 								<div class="question_title">
-									<h3>What Type of Web Development do you need?</h3>
-									<p>Selection with Branch (Second Branch)</p>
+									<h3>What is your goal?</h3>
+									<p>Fitcoach will Create a personalized plan tailored to your needs and goal</p>
 								</div>
 								<div class="row">
+									<div class="col-md-2"></div>
 									<div class="col-lg-4 animated zoomIn delay-fast">
 										<div class="item">
 											<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" class="required">
-											<label for="branch_2_answer_1"><img src="img/web_development_icon_2.svg" alt=""><strong>HTML Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+											<label for="branch_2_answer_1"><img src="img/web_development_icon_2.svg" alt=""><strong>Lose Weight</strong></label>
 										</div>
 									</div>
 									<div class="col-lg-4 animated zoomIn delay-normal">
 										<div class="item">
 											<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" class="required">
-											<label for="branch_2_answer_2"><img src="img/web_development_icon_3.svg" alt=""><strong>CMS Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+											<label for="branch_2_answer_2"><img src="img/web_development_icon_3.svg" alt=""><strong>Get in shape</strong></label>
 										</div>
 									</div>
-									<div class="col-lg-4 animated zoomIn delay-medium">
+									<div class="col-md-2"></div>
+									<!--<div class="col-lg-4 animated zoomIn delay-medium">
 										<div class="item">
 											<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" class="required">
 											<label for="branch_2_answer_3"><img src="img/web_development_icon_4.svg" alt=""><strong>FrontEnd Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 										</div>
-									</div>
+									</div>-->
 								</div>
 								<!-- /row-->
 							</div>
@@ -261,21 +269,17 @@
 							<!-- Budget ============================== -->
 							<div class="step" id="budget" data-state="end">
 								<div class="question_title">
-									<h3>What is your buget?</h3>
-									<p>Touchscreen friendly Range Slider</p>
+									<h3>50 million</h3>
+									<p>users have chosen us</p>
 								</div>
 								<div class="row justify-content-center">
 									<div class="col-lg-5 animated zoomIn delay-fast">
 										<div class="box_general">
-										<div class="rounded_slider">
-											<div id="budget_slider" style="margin: 0 auto 20px;"></div>
-											<p>Eu sed epicuri mentitum, ex mei hinc justo, no cum dictas deserunt gubergren. Ferri pericula sententiae eu pro.</p>
-											</div>
+										
 										</div>
 									</div>
 								</div>
-								<!-- /row -->
-							</div>
+							<!-- /row -->
 							<!-- /Budget ============================== -->
 							
 							<!-- Last step ============================== -->
