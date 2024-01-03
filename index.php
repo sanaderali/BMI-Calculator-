@@ -90,13 +90,13 @@
 									<div class="col-lg-4 animated zoomIn delay-fast">
 										<div class="item">
 											<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" class="required">
-											<label for="branch_2_answer_1"><img src="img/web_development_icon_2.svg" alt=""><strong>Lose Weight</strong></label>
+											<label for="branch_2_answer_1"><img src="bmi-images/female_lose_weight.png" alt=""><strong>Lose Weight</strong></label>
 										</div>
 									</div>
 									<div class="col-lg-4 animated zoomIn delay-normal">
 										<div class="item">
 											<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" class="required">
-											<label for="branch_2_answer_2"><img src="img/web_development_icon_3.svg" alt=""><strong>Get in shape</strong></label>
+											<label for="branch_2_answer_2"><img src="bmi-images/female_gain_muscle.png" alt=""><strong>Get in shape</strong></label>
 										</div>
 									</div>
 									<div class="col-md-2"></div>
@@ -116,44 +116,27 @@
 						<div class="branch" id="HTML-Development">
 							<div class="step" data-state="budget">
 								<div class="question_title">
-									<h3>Web Development: HTML Development</h3>
-									<p>Multiple Selection (Checkbox based)</p>
+									<h3>Choose your current body type</h3>
+									<!--<p>Multiple Selection (Checkbox based)</p>-->
 								</div>
-								<div class="row justify-content-center">
-									<div class="col-lg-5 animated zoomIn delay-fast">
-										<div class="box_general">
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Responsive">Responsive</label>
-											</div>
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Boostrap">Boostrap 4.0 based</label>
-											</div>
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Jquery">Jquery 3</label>
-											</div>
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Google Web Font">Google Web Font</label>
-											</div>
-											<hr>
-											<h6 class="add_bottom_15">How many pages?</h6>
-											<div class="form-group">
-												<div class="qty-buttons">
-													<input type="button" value="+" class="qtyplus" name="home_page">
-													<input type="text" name="home_page" value="" class="qty form-control required" placeholder="Home page">
-													<input type="button" value="-" class="qtyminus" name="home_page">
-												</div>
-											</div>
-											<div class="form-group">
-												<div class="qty-buttons">
-													<input type="button" value="+" class="qtyplus" name="inner_pages">
-													<input type="text" name="inner_pages" value="" class="qty form-control required" placeholder="Inner pages">
-													<input type="button" value="-" class="qtyminus" name="inner_pages">
-												</div>
-											</div>
-											<h6 class="add_bottom_15">Any particular notes?</h6>
-											<textarea class="form-control" style="height:100px; margin-bottom:0;" placeholder="Typer here" name="html_development_notes"></textarea>
+								<div class="row">
+									<div class="col-lg-4 animated zoomIn delay-fast">
+										<div class="item">
+											<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" class="required">
+											<label for="branch_2_answer_1"><img src="bmi-images/download(1).webp" alt=""><strong>Average</strong></label>
 										</div>
-										<!-- /box_general -->
+									</div>
+									<div class="col-lg-4 animated zoomIn delay-normal">
+										<div class="item">
+											<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" class="required">
+											<label for="branch_2_answer_2"><img src="bmi-images/download(2).webp" alt=""><strong>Plump</strong></label>
+										</div>
+									</div>
+										<div class="col-lg-4 animated zoomIn delay-medium">
+										<div class="item">
+											<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" class="required">
+											<label for="branch_2_answer_3"><img src="bmi-images/download(3).webp" alt=""><strong>Extra</strong></label>
+										</div>
 									</div>
 								</div>
 								<!-- /row -->
@@ -165,32 +148,27 @@
 						<div class="branch" id="CMS-Development">
 							<div class="step" data-state="budget">
 								<div class="question_title">
-									<h3>Web Development: CMS Development</h3>
-									<p>Multiple Selection (Checkbox based)</p>
+									<h3>Choose your current body type</h3>
+									<!--<p>Multiple Selection (Checkbox based)</p>-->
 								</div>
-								<div class="row justify-content-center">
-									<div class="col-lg-5 animated zoomIn delay-fast">
-										<div class="box_general">
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="WordPress">WordPress</label>
-											</div>
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="Magento">Magento</label>
-											</div>
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="Drupal">Drupal</label>
-											</div>
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="Joomla">Joomla</label>
-											</div>
-											<div class="form-group short">
-												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="PrestaShop">PrestaShop</label>
-											</div>
-											<hr>
-											<h6 class="add_bottom_15">Any particular notes?</h6>
-											<textarea class="form-control" style="height:100px; margin-bottom:0;" placeholder="Typer here" name="cms_development_notes"></textarea>
+								<div class="row">
+									<div class="col-lg-4 animated zoomIn delay-fast">
+										<div class="item">
+											<input id="branch_2_answer_1" type="radio" name="branch_2_group_2" value="HTML-Development" class="required">
+											<label for="branch_2_answer_1"><img src="bmi-images/download(1).webp" alt=""><strong>Average</strong></label>
 										</div>
-										<!-- /box_general -->
+									</div>
+									<div class="col-lg-4 animated zoomIn delay-normal">
+										<div class="item">
+											<input id="branch_2_answer_2" name="branch_2_group_2" type="radio" value="CMS-Development" class="required">
+											<label for="branch_2_answer_2"><img src="bmi-images/download(2).webp" alt=""><strong>Plump</strong></label>
+										</div>
+									</div>
+										<div class="col-lg-4 animated zoomIn delay-medium">
+										<div class="item">
+											<input id="branch_2_answer_3" name="branch_2_group_2" type="radio" value="FrontEnd-Development" class="required">
+											<label for="branch_2_answer_3"><img src="bmi-images/download(3).webp" alt=""><strong>Extra</strong></label>
+										</div>
 									</div>
 								</div>
 								<!-- /row -->
@@ -274,9 +252,9 @@
 								</div>
 								<div class="row justify-content-center">
 									<div class="col-lg-5 animated zoomIn delay-fast">
-										<div class="box_general">
-										
-										</div>
+									<div class="items">
+									<img src="bmi-images/15.webp" alt="">
+									</div>
 									</div>
 								</div>
 							<!-- /row -->
