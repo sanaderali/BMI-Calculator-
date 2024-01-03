@@ -154,19 +154,19 @@
 								<div class="row">
 									<div class="col-lg-4 animated zoomIn delay-fast">
 										<div class="item">
-											<input id="branch_2_answer_1" type="radio" name="branch_2_group_2" value="HTML-Development" class="required">
+											<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" class="required">
 											<label for="branch_2_answer_1"><img src="bmi-images/download(1).webp" alt=""><strong>Average</strong></label>
 										</div>
 									</div>
 									<div class="col-lg-4 animated zoomIn delay-normal">
 										<div class="item">
-											<input id="branch_2_answer_2" name="branch_2_group_2" type="radio" value="CMS-Development" class="required">
+											<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" class="required">
 											<label for="branch_2_answer_2"><img src="bmi-images/download(2).webp" alt=""><strong>Plump</strong></label>
 										</div>
 									</div>
 										<div class="col-lg-4 animated zoomIn delay-medium">
 										<div class="item">
-											<input id="branch_2_answer_3" name="branch_2_group_2" type="radio" value="FrontEnd-Development" class="required">
+											<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" class="required">
 											<label for="branch_2_answer_3"><img src="bmi-images/download(3).webp" alt=""><strong>Extra</strong></label>
 										</div>
 									</div>
@@ -253,7 +253,7 @@
 								<div class="row justify-content-center">
 									<div class="col-lg-5 animated zoomIn delay-fast">
 									<div class="items">
-									<img src="bmi-images/15.webp" alt="">
+									<img src="bmi-images/weightloss/25.png" alt="">
 									</div>
 									</div>
 								</div>

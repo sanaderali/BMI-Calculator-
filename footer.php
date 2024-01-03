@@ -45,8 +45,10 @@
 	<!-- /Modal terms -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/common_scripts.min.js"></script>
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+	<script src="js/common_scripts.min.js"></script>
+
 	<script src="js/menu.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/wizard_func_multiple_branch.js"></script>	
