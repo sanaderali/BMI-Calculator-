@@ -18,13 +18,13 @@
 								<div class="col-lg-3 animated zoomIn delay-fast">
 									<div class="item">
 										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
-										<label for="answer_1"><img src="bmi-images/male.webp" class="bmi-main-images" alt=""><!--<strong>Seo Optimization</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.--></label>
+										<label for="answer_1"><img src="bmi-images/weightloss/11.png" class="bmi-main-images" alt=""><!--<strong>Seo Optimization</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.--></label>
 									</div>
 								</div>
 								<div class="col-lg-3 animated zoomIn delay-normal">
 									<div class="item">
 										<input id="answer_2" name="branch_1_group_1" type="radio" value="Web-Development" class="required">
-										<label for="answer_2"><img src="bmi-images/female.webp" class="bmi-main-images" alt=""><!--<strong>Web Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.--></label>
+										<label for="answer_2"><img src="bmi-images//weightloss/4(1).png" class="bmi-main-images" alt=""><!--<strong>Web Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.--></label>
 									</div>
 								</div>
 								<div class="col-md-3"></div>
@@ -49,14 +49,14 @@
 								<div class="row">
 								<div class="col-lg-3 animated zoomIn delay-fast">
 									<div class="item">
-										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
-										<label for="answer_1"><img src="bmi-images/11.png" alt=""><button type="button" name="forward" class="forward">18-25</button>
+										<input id="branch_2_answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
+										<label for="branch_2_answer_1"><img src="bmi-images/11.png" alt=""><button type="button" name="forward" class="forward">18-25</button>
 									</div>
 								</div>
 								<div class="col-lg-3 animated zoomIn delay-normal">
 									<div class="item">
-										<input id="answer_2" name="branch_1_group_1" type="radio" value="Web-Development" class="required">
-										<label for="answer_2"><img src="bmi-images/7.png" alt=""><button type="button" name="forward" class="forward">26-35</button>
+										<input id="branch_2_answer_2" name="branch_1_group_1" type="radio" value="Web-Development" class="required">
+										<label for="branch_2_answer_2"><img src="bmi-images/7.png" alt=""><button type="button" name="forward" class="forward">26-35</button>
 									</div>
 								</div>
 								<div class="col-lg-3 animated zoomIn delay-medium">
@@ -67,8 +67,8 @@
 								</div>
 								<div class="col-lg-3 animated zoomIn delay-medium">
 									<div class="item">
-										<input id="answer_3" name="branch_1_group_1" type="radio" value="Design" class="required">
-										<label for="answer_3"><img src="bmi-images/6.png" alt="" class="bg-white"><button type="button" name="forward" class="forward">46+</button>
+										<input id="answer_4" name="branch_1_group_1" type="radio" value="Design" class="required">
+										<label for="answer_4"><img src="bmi-images/4.png" alt="" class="bg-white"><button type="button" name="forward" class="forward">46+</button>
 									</div>
 								</div>
 							</div>
@@ -89,14 +89,14 @@
 									<div class="col-md-2"></div>
 									<div class="col-lg-4 animated zoomIn delay-fast">
 										<div class="item">
-											<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" class="required">
-											<label for="branch_2_answer_1"><img src="bmi-images/female_lose_weight.png" alt=""><strong>Lose Weight</strong></label>
+											<input id="branch_3_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" class="required">
+											<label for="branch_3_answer_1"><img src="bmi-images/female_lose_weight.png" alt=""><strong>Lose Weight</strong></label>
 										</div>
 									</div>
 									<div class="col-lg-4 animated zoomIn delay-normal">
 										<div class="item">
-											<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" class="required">
-											<label for="branch_2_answer_2"><img src="bmi-images/female_gain_muscle.png" alt=""><strong>Get in shape</strong></label>
+											<input id="branch_3_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" class="required">
+											<label for="branch_3_answer_2"><img src="bmi-images/female_gain_muscle.png" alt=""><strong>Get in shape</strong></label>
 										</div>
 									</div>
 									<div class="col-md-2"></div>
